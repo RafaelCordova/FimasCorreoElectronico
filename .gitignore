@@ -1,0 +1,19 @@
+# Archivos generados por los scripts Python
+contacto-vcf/*.vcf
+contacto-vcf/*.jpg
+contacto-vcf/qr_*.png
+
+# Fotos de perfil (no subir al repo)
+contacto-vcf/foto*.webp
+contacto-vcf/foto*.jpeg
+contacto-vcf/foto*.jpg
+contacto-vcf/fotoPerfil.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
