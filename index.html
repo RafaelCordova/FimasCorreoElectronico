@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Firmas - GyA</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h2>Generador de Firmas - GyA</h2>
+
+    <div class="container">
+        <div class="panel" aria-label="Formulario de firma">
+            <input id="nombreInput" placeholder="Nombre completo" autocomplete="name">
+            <input id="cargoInput" placeholder="Cargo" autocomplete="organization-title">
+            <input id="telefonoInput" placeholder="Teléfono" autocomplete="tel">
+            <button id="exportarBtn" type="button">Exportar PNG</button>
+        </div>
+
+        <div id="firma">
+            <div class="linea"></div>
+
+            <div class="contenido-firma">
+                <div class="logo-container">
+                    <img src="logo-completo.png" alt="Logo GyA">
+                </div>
+
+                <div class="info">
+                    <div class="nombre" id="nombre">NOMBRE COMPLETO</div>
+                    <div class="cargo" id="cargo">Cargo aquí</div>
+
+                    <div class="detalle">
+                        <strong>Teléfono:</strong> <span id="telefono"></span>
+                    </div>
+
+                    <div class="detalle">
+                        <strong>Web:</strong> www.gestionayaprende.com
+                    </div>
+
+                    <div class="detalle">
+                        <strong>Dirección:</strong> Av. República de Colombia Nro. 671
+                    </div>
+                    <div class="detalle">
+                        Dpto. 502 - San Isidro, Lima, <strong>Perú</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-line"></div>
+        </div>
+    </div>
+</body>
+</html>
